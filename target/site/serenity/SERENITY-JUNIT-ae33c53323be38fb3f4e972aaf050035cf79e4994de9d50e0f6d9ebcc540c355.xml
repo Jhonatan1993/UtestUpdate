@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="register new user in utest page" skipped="0" tests="1" time="83.71" timestamp="2022-10-28 10:45:42"><testcase name="register successful in the aplication"><error message="Expected condition failed: waiting for By.xpath: //div[@class='image-box-header']//h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'&#10;System info: host: 'JHONATAN', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: //div[@class='image-box-header']//h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'JHONATAN', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //div[@class='image-box-header']//h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'JHONATAN', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: driver.version: unknown&#13;
+co.com.company.certification.utes.stepsdefinitions.RegisterUtestPageStepDefinitions.theUserShouldSeeMessage(RegisterUtestPageStepDefinitions.java:47)&#13;
+✽.the user should see message(src/test/resources/features/register_utes_page.feature:13)&#13;
+</system-err></testcase></testsuite>

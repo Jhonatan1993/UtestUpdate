@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="8869e85c5a2446af94655376be0cb838173650f749552eb0f491745fd7e0034b.html">Register New User In Utest Page</a></span>
+                > <span class="truncate-60"><a
+                    href="ae33c53323be38fb3f4e972aaf050035cf79e4994de9d50e0f6d9ebcc540c355.html">register successful in the aplication </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-10-2022 10:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Register New User In Utest Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                as user of utest page<br />
+as user need register<br />
+so that to see the products
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="70be359e7338540f790f22ebc710a1ca1eb73c400c5c2e70c047b120a0312502.html">Caseone
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">register successful in the aplication
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given the user in the aplication https://www.utest.com/<br>When the user register in aplication<br><table class='embedded'><thead><th>firstName</th><th>lastName</th><th>emailAdress</th><th>month</th><th>day</th><th>year</th><th>city</th><th>state</th><th>postalCode</th><th>country</th><th>computer</th><th>version</th><th>languaje</th><th>mobileDevice</th><th>model</th><th>opertaingSystem</th><th>password</th></thead><tbody><tr><td>&lt;firstName&gt;</td><td>&lt;lastName&gt;</td><td>&lt;emailAdress&gt;</td><td>&lt;month&gt;</td><td>&lt;day&gt;</td><td>&lt;year&gt;</td><td>&lt;city&gt;</td><td>&lt;state&gt;</td><td>&lt;postalCode&gt;</td><td>&lt;country&gt;</td><td>&lt;computer&gt;</td><td>&lt;version&gt;</td><td>&lt;languaje&gt;</td><td>&lt;mobileDevice&gt;</td><td>&lt;model&gt;</td><td>&lt;opertaingSystem&gt;</td><td>&lt;password&gt;</td></tr></tbody></table><br>Then the user should see message<br><table class='embedded'><thead><th>strConfirmWelcome</th></thead><tbody><tr><td>&lt;strConfirmWelcome&gt;</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected condition failed: waiting for By.xpath: //div[@class='image-box-header']//h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'System info: host: 'JHONATAN', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.company.certification.utes.stepsdefinitions.RegisterUtestPageStepDefinitions.theUserShouldSeeMessage(RegisterUtestPageStepDefinitions.java:47)<br />✽.the user should see message(src/test/resources/features/register_utes_page.feature:13)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource926196821060641172.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6f50fcb505e85be22dc7a61ea4b1805f06747767e47117b0fd964899e82f47ac.png" title="Given the user in the aplication https://www.utest.com/" width="1920"/>
+                <img src="6f50fcb505e85be22dc7a61ea4b1805f06747767e47117b0fd964899e82f47ac.png" title="Jhonatan opens the https://www.utest.com/" width="1920"/>
+                <img src="41daba609b9e52e3a3d64d5eb435e127b86d15cfa491c982e880672e6bca33bd.png" title="When the user register in aplication
+| firstName | lastName | emailAdress | month | day | year | city | state | postalCode | country | computer | version | languaje | mobileDevice | model | opertaingSystem | password |
+| Jhonatan | Paternina | jpaterninarojas231312231@gmail.com | December | 2 | 1993 | Monter&iacute;a | Antioquia | 230001 | Colombia | Linux | Ubuntu | English | Motorola | Edge 30 | Android 12 | 123456Qwerty@.#- |" width="1920"/>
+                <img src="4b44b944fa6fea228f7a771ae7b13faa3848041fe009df05d631d8749efb125a.png" title="Jhonatan user register one" width="1920"/>
+                <img src="584e98c1f68ae42fb4bee55a9b254ae1b13d66ac2796736d233a771611326a63.png" title="Jhonatan clicks on Boton opcion registrar" width="1920"/>
+                <img src="e61247a8b11f39bd7c0eed3be860424e5381f227824a3a24094343fb451e9381.png" title="Jhonatan enters 'Jhonatan' into Ingresar Nombre" width="1920"/>
+                <img src="189756b122cc2dab6c89d6ce5ce9180f05674e5e7e359dd6506119c19a920dd7.png" title="Jhonatan enters 'Paternina' into Ingresar apellido" width="1920"/>
+                <img src="364b121261d20db9ade7e9445ec793725240932c53d33c6bfc524b23fed34ded.png" title="Jhonatan enters 'jpaterninarojas231312231@gmail.com' into Ingresar email" width="1920"/>
+                <img src="62b7ef87ecb7d96d564c878540114896ceab5ebe55f844dbf14bed695e8be872.png" title="Jhonatan select December on " width="1920"/>
+                <img src="18892b399cee5651e3cc96a596ee62bd2e69367a66bf094736335ea4c03dc88b.png" title="Jhonatan select 2 on " width="1920"/>
+                <img src="fc24e58dfbb8381a4609f2966987182ec4559448d613a136981e26dd059c4a91.png" title="Jhonatan select 1993 on " width="1920"/>
+                <img src="a4f9ecb6d26e346b4dde7b63038d36e6867eec03f51185f9b3a83c9451dc6bf1.png" title="Jhonatan clicks on " width="1920"/>
+                <img src="854919bfe63ed658ed7c53c3198d19a6d3361887e616e76a5c133a2b92a8bf13.png" title="Jhonatan user register two" width="1920"/>
+                <img src="140205c204799cb390265efa576d342e2ccfa14a3ed3033545d422545e21e90e.png" title="Jhonatan enters 'Monter&iacute;a' into City" width="1920"/>
+                <img src="6910577e2994d286e7f83208686eaca143738a1f5d692e0bdba68552a7f41582.png" title="Jhonatan enters '230001' into Postal code" width="1920"/>
+                <img src="27e3311a84954a7aa4ccf2a6eae8881e209d15728309432a5a64dafff2e97ca7.png" title="Jhonatan clicks on Select country" width="1920"/>
+                <img src="587123365513bf9edb3fd3e40730f10ace830101a6c04043c48656843e4bfcaf.png" title="Jhonatan enters 'Colombia' into Input country" width="1920"/>
+                <img src="5f7475461e8127f5c08a998182cf1815a3a77ce1b4cc74bc64c1bb65abae1f4a.png" title="Jhonatan clicks on Boton siguiente" width="1920"/>
+                <img src="c606f0d5a9e5abe825f0c3bc7b53217d54733e60932cf00174a8447dfdf10395.png" title="Jhonatan user register three" width="1920"/>
+                <img src="e7a48149d5fb3337dda0d975930db0648296488d9f0991e1814836e3907f3027.png" title="Jhonatan clicks on Select Computer" width="1920"/>
+                <img src="348eeeda60ed0489c9c68d2d248d339b02f2b2d1917200d218775025b65e58d2.png" title="Jhonatan enters 'Linux' into Input Computer" width="1920"/>
+                <img src="dc61eca299abe9ec3e8efcbbde14fe901a8e1107851b24b233baf5ef5814c31f.png" title="Jhonatan clicks on Select Version" width="1920"/>
+                <img src="636670f1fcd2b91c022f8bdf74037229d3773194d881ff1326f950533213bb62.png" title="Jhonatan enters 'Ubuntu' into Input Version" width="1920"/>
+                <img src="b1451d2a0021015347e3183855712e7284d5b170c10840e4881bfad2e4572623.png" title="Jhonatan clicks on Select Language" width="1920"/>
+                <img src="df37dbd0cc011dfc84695f39177573c1c8b57660fd82a0168c22ebb850e29e52.png" title="Jhonatan enters 'English' into Input Language" width="1920"/>
+                <img src="20ad81d744f97a2c8b4e75999b20c28fecc6206199812f743530cb75747c807b.png" title="Jhonatan clicks on Select Mobile Device" width="1920"/>
+                <img src="1391b8ec0cf767d7b42893c8502d263919fc26b86e93332d7c3ea0acb7a703c9.png" title="Jhonatan enters 'Motorola' into Input Mobile Device" width="1920"/>
+                <img src="e57a2f01cab8ae0767823e2caf08b5d30f63bcffa0bc372728760be35d0224cf.png" title="Jhonatan clicks on Select Model" width="1920"/>
+                <img src="22d1e963dde2b6c7501b4e101c9a2d2895bf4a99216d03a3b25313d8bfff582f.png" title="Jhonatan enters 'Edge 30' into Input Model" width="1920"/>
+                <img src="6c8a99ebda8c39f03d42c9ae9a1003e9c704319889bb5cbcf5be210931e424d8.png" title="Jhonatan clicks on Select Operating system" width="1920"/>
+                <img src="5bd2b00be2e14b180d24a3aff2a843a20bfc7169e0c815d877c3339c91e53851.png" title="Jhonatan enters 'Android 12' into Input Operating system" width="1920"/>
+                <img src="65d2bc069c6f11bc238f2ac1a352b7eb6baf3531b8422d143a968f205a8c5ded.png" title="Jhonatan clicks on Button netx" width="1920"/>
+                <img src="51eeea1bf800d37e8362571d61cc45a7663772f177ebce22a89325622586bdcf.png" title="Jhonatan user register four" width="1920"/>
+                <img src="2dcdf1ecddc0238b37532f7272fa8ba2bed82fbddc81cfa1de1b815ad325127b.png" title="Jhonatan enters '123456Qwerty@.#-' into Password" width="1920"/>
+                <img src="da11dae04954dd3611f9975a71b7695512f8780537440b4e03e832a0a788a55c.png" title="Jhonatan enters '123456Qwerty@.#-' into Confirm Password" width="1920"/>
+                <img src="2a48ad60d236c0fb5e5224b5a6e98b2a19821a3eea055cae34962d3b86f14108.png" title="Jhonatan clicks on Select check one" width="1920"/>
+                <img src="5ba1d4f4232584112903b6520ff22722063b4fb596cfbc46f42e841e8d87d698.png" title="Jhonatan clicks on Select check two" width="1920"/>
+                <img src="7eef75a32244317800ed090a3048e3b94df2cefac5876c86867328c312a570a6.png" title="Jhonatan clicks on Complete setup" width="1920"/>
+                <img src="3a2868e5647aac6f9a15326beece142a2b9af635c91eb8b11cbf6649cad3203d.png" title="Then answer: <span class='error-color'>ERROR</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.12</span>
+</div>
+</body>
+</html>

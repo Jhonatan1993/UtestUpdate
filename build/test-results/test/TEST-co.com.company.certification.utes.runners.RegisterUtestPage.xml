@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.company.certification.utes.runners.RegisterUtestPage" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="JHONATAN" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/register_utes_page.feature:19 ?[0m# register successful in the aplication
+
+1 Scenarios (?[31m1 failed?[0m)
+3 Steps (?[31m1 failed?[0m, ?[32m2 passed?[0m)
+1m31,620s
+
+java.lang.AssertionError: Expected condition failed: waiting for By.xpath: //div[@class='image-box-header']//h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'JHONATAN', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: driver.version: unknown
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:249)
+	at co.com.company.certification.utes.stepsdefinitions.RegisterUtestPageStepDefinitions.theUserShouldSeeMessage(RegisterUtestPageStepDefinitions.java:47)
+	at ?.the user should see message(src/test/resources/features/register_utes_page.feature:13)
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
